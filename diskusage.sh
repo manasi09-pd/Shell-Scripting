@@ -4,7 +4,7 @@ echo "Checking the disk space on the machine and send a alert message"
 
 #setting the thershold value
 
-THRESHOLD=2
+THRESHOLD=90
 
 #Get the disk usage of the particular path that you require 
 
