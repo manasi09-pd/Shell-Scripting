@@ -14,5 +14,5 @@ if [ "$disk_usage" -ge "$THRESHOLD" ];
 then
 	echo "Alert: The disk usage on the machine is $disk_usage%  where the it exceeds the threshold $THRESHOLD%"
 else
-	echo "Disk usage is $disk_usage which is under the limit"
+	echo "Disk usage is $disk_usage% which is under the limit"
 fi
